@@ -192,7 +192,7 @@ export default function App() {
               {!isDark && (
                 <motion.img 
                   key="mewtwo-light"
-                  src="/MewTwo.png" 
+                  src="/mewtwo.png" 
                   alt="Mewtwo 3D Render" 
                   initial={{ opacity: 0, scale: 0.95, filter: "drop-shadow(0px 20px 40px rgba(139,84,162,0.5)) blur(12px) brightness(1.5)" }}
                   animate={{ opacity: 1, scale: 1, filter: "drop-shadow(0px 20px 40px rgba(139,84,162,0.5)) blur(0px) brightness(1)" }}
@@ -205,7 +205,7 @@ export default function App() {
               {isDark && (
                 <motion.img 
                   key="mewtwo-dark"
-                  src="/Mewtwo dark.png" 
+                  src="/mewtwo preto.png" 
                   alt="Mewtwo Dark Render" 
                   initial={{ opacity: 0, scale: 0.95, filter: "drop-shadow(0px 20px 60px rgba(168,85,247,0.7)) blur(12px) brightness(0.5)" }}
                   animate={{ opacity: 1, scale: 1, filter: "drop-shadow(0px 20px 60px rgba(168,85,247,0.7)) blur(0px) brightness(1)" }}
